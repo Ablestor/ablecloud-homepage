@@ -91,6 +91,7 @@ module.exports = {
     extend: {
       screens: {
         xsm: '550px',
+        xlg: '1200px',
         // => @media (min-width: 550px) { ... }
       },
       boxShadow: {

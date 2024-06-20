@@ -29,6 +29,7 @@ import Logo_Article_6_1 from '@/public/images/new/company/article_6_1.svg';
 import Logo_Article_6_2 from '@/public/images/new/company/article_6_2.svg';
 import Logo_Article_6_3 from '@/public/images/new/company/article_6_3.svg';
 import Logo_Article_6_4 from '@/public/images/new/company/article_6_4.svg';
+import Logo_Article_6_5 from '@/public/images/new/company/article_6_5.svg';
 
 const headerContent: CompanyHeaderProps = {
   title: <Logo_Article_1_1 />,
@@ -349,10 +350,13 @@ export default function CompanyPage() {
           title='인증 및 특허권'
           className={'not-prose bg-backgroudGray py-4 text-[#444444]'}>
           <div
-            className={'mt-8 grid max-w-page-full grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4'}>
+            className={
+              'mt-8 grid max-w-page-full grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3 xlg:grid-cols-5'
+            }>
             <CompanyContent.ImageItam title='기업부설연구소 인정서' image={<Logo_Article_6_1 />} />
             <CompanyContent.ImageItam title='소프트웨어품질인정서' image={<Logo_Article_6_2 />} />
             <CompanyContent.ImageItam title='저작권 등록증' image={<Logo_Article_6_3 />} />
+            <CompanyContent.ImageItam title='보안기능확인서' image={<Logo_Article_6_5 />} />
             <CompanyContent.ImageItam title='특허출원' image={<Logo_Article_6_4 />} />
           </div>
         </CompanyContent>
