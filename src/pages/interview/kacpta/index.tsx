@@ -13,7 +13,7 @@ const headerContent: ClientHeader = {
 };
 
 const clientContent: InterViewClientContentProps = {
-  clinetImage: <Logo_Article_1_2 />,
+  clientImage: <Logo_Article_1_2 />,
   introduceDescription: (
     <p>
       한국세무사회는 신규 세무사를 발굴하고, 세무사의 전문지식과 자질 향상, 대국민 서비스 향상을
@@ -26,7 +26,7 @@ const clientContent: InterViewClientContentProps = {
     </p>
   ),
   introduceImage: (
-    <div className='m-auto max-w-[422px]'>
+    <div className='m-auto max-w-[422px] py-8'>
       <Image src={KacptaIntroduceImg} />
     </div>
   ),

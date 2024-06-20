@@ -14,9 +14,10 @@ export interface SliderData {
   bgImage: string;
   contentImage: StaticImageData;
   href: string;
-  title: string;
+  title: string | ReactNode;
   description: string;
   isBlank?: boolean;
+  isImageEnd?: boolean;
 }
 
 export interface HomeHeaderProps extends BaseComponentProps {
@@ -47,32 +48,34 @@ export default function HomeHeader({
 
   return (
     <Slider {...options} className='not-prose'>
-      {sliderData.map(({ title, description, bgImage, contentImage, href, isBlank }, index) => {
-        return (
-          <div key={index} className={cls`relative !flex h-[560px] w-full bg-cover ${bgImage}`}>
-            <div className='m-auto flex w-full max-w-page-full items-center justify-between'>
-              <div className='mx-[40px] text-white'>
-                <div className='mb-[32px] max-w-[455px] text-[32px] font-extrabold leading-[43.57px]'>
-                  {title}
+      {sliderData.map(
+        ({ title, description, bgImage, contentImage, href, isBlank, isImageEnd }, index) => {
+          return (
+            <div key={index} className={cls`relative !flex h-[560px] w-full bg-cover ${bgImage}`}>
+              <div className='m-auto my-0 flex w-full max-w-page-full justify-between'>
+                <div className='mx-[40px] flex flex-col justify-center text-white'>
+                  <div className='mb-[32px] max-w-[455px] text-[32px] font-extrabold leading-[43.57px]'>
+                    {title}
+                  </div>
+                  <div className='mb-[32px] max-w-[650px] text-[16px] leading-[24.52px]'>
+                    {description}
+                  </div>
+                  <CustomLink href={href} isBlank={isBlank}>
+                    <Button
+                      className={'mt-5 w-full max-w-[240px] !border-[white] !text-[white]'}
+                      bordered>
+                      자세히보기
+                    </Button>
+                  </CustomLink>
                 </div>
-                <div className='mb-[32px] max-w-[650px] text-[16px] leading-[24.52px]'>
-                  {description}
+                <div className={`hidden ${isImageEnd ? 'items-end' : 'items-center'} lg:flex`}>
+                  <Image src={contentImage} />
                 </div>
-                <CustomLink href={href} isBlank={isBlank}>
-                  <Button
-                    className={'mt-5 w-full max-w-[240px] !border-[white] !text-[white]'}
-                    bordered>
-                    자세히보기
-                  </Button>
-                </CustomLink>
-              </div>
-              <div className='hidden lg:flex'>
-                <Image src={contentImage} />
               </div>
             </div>
-          </div>
-        );
-      })}
+          );
+        },
+      )}
     </Slider>
   );
 }

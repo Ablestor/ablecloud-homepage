@@ -30,6 +30,11 @@
       "@/templates": ["src/templates"]
     }
   },
-  "include": ["next-env-custom.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env-custom.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/pages/interview/kepri/index.tsㅌ"
+  ],
   "exclude": ["node_modules", "next-env.d.ts"]
 }

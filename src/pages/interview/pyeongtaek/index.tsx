@@ -13,7 +13,7 @@ const headerContent: ClientHeader = {
 };
 
 const clientContent: InterViewClientContentProps = {
-  clinetImage: <Logo_Article_1_3 />,
+  clientImage: <Logo_Article_1_3 />,
   introduceDescription: (
     <p>
       평택시는 경기도 남단에 위치하는 도시로 평택시청은 평택시를 관할하여 자치하고, 시민들을 위한
@@ -25,7 +25,7 @@ const clientContent: InterViewClientContentProps = {
     </p>
   ),
   introduceImage: (
-    <div className='mx-auto max-w-[490px]'>
+    <div className='mx-auto max-w-[490px] py-8'>
       <Image src={PyeongtaekIntroduceImg} />
     </div>
   ),

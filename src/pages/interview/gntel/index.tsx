@@ -13,7 +13,7 @@ const headerContent: ClientHeader = {
 };
 
 const clientContent: InterViewClientContentProps = {
-  clinetImage: <Logo_Article_1_9 />,
+  clientImage: <Logo_Article_1_9 />,
   introduceDescription: (
     <p>
       지엔텔은 2004년 2월 LG전자 정보통신 통신운영사업부가 분사하여 설립된 회사입니다.
@@ -25,7 +25,7 @@ const clientContent: InterViewClientContentProps = {
     </p>
   ),
   introduceImage: (
-    <div className='mx-auto max-w-[451px]'>
+    <div className='mx-auto max-w-[451px] py-8'>
       <Image src={GntelIntroduceImg} />
     </div>
   ),

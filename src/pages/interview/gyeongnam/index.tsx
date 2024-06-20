@@ -13,7 +13,7 @@ const headerContent: ClientHeader = {
 };
 
 const clientContent: InterViewClientContentProps = {
-  clinetImage: <Logo_Article_1_5 />,
+  clientImage: <Logo_Article_1_5 />,
   introduceDescription: (
     <p>
       경상남도의 행정을 총괄하는 지방행정기관으로 경상남도 창원시에 위치합니다. 경상남도민을 위한
@@ -22,7 +22,7 @@ const clientContent: InterViewClientContentProps = {
     </p>
   ),
   introduceImage: (
-    <div className='mx-auto max-w-[462px]'>
+    <div className='mx-auto max-w-[462px] py-8'>
       <Image src={GyeongnamIntroduceImg} />
     </div>
   ),

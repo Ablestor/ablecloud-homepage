@@ -13,7 +13,7 @@ const headerContent: ClientHeader = {
 };
 
 const clientContent: InterViewClientContentProps = {
-  clinetImage: <Logo_Article_1_10 />,
+  clientImage: <Logo_Article_1_10 />,
   introduceDescription: (
     <p>
       데이터스트림즈는 클라우드, 데이터거버넌스, 빅데이터, IoT 등의 다양한 분야에 해당하는 기술력을
@@ -25,7 +25,7 @@ const clientContent: InterViewClientContentProps = {
     </p>
   ),
   introduceImage: (
-    <div className='mx-auto max-w-[493px]'>
+    <div className='mx-auto max-w-[493px] py-8'>
       <Image src={DatastreamsIntroduceImg} />
     </div>
   ),

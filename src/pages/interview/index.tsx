@@ -26,8 +26,11 @@ import Logo_Article_1_16 from '@/public/images/new/interview/article_1_16.svg';
 import Logo_Article_1_17 from '@/public/images/new/interview/article_1_17.svg';
 import Logo_Article_1_18 from '@/public/images/new/interview/article_1_18.svg';
 import Logo_Article_1_19 from '@/public/images/new/interview/article_1_19.svg';
-
-// import Logo_Article_1_20 from '@/public/images/new/interview/article_1_20.svg';
+import Logo_Article_1_20 from '@/public/images/new/interview/article_1_20.svg';
+import Logo_Article_1_21 from '@/public/images/new/interview/article_1_21.svg';
+import Logo_Article_1_22 from '@/public/images/new/interview/article_1_22.svg';
+import Logo_Article_1_23 from '@/public/images/new/interview/article_1_23.svg';
+import Logo_Article_1_24 from '@/public/images/new/interview/article_1_24.svg';
 
 export const clients = [
   {
@@ -132,6 +135,7 @@ export const clients = [
     title: '고령군청',
     image: <Logo_Article_1_13 />,
     description: <p>서버 가상화</p>,
+    href: '/interview/goryeong',
     maintype: '산업',
     subtype: 'Solution',
   },
@@ -139,6 +143,7 @@ export const clients = [
     title: '합천군청',
     image: <Logo_Article_1_14 />,
     description: <p>영상감시 통합 플랫폼</p>,
+    href: '/interview/hc',
     maintype: '산업',
     subtype: 'Solution',
   },
@@ -146,6 +151,7 @@ export const clients = [
     title: '상주시청',
     image: <Logo_Article_1_15 />,
     description: <p>영상 감시 수집</p>,
+    href: '/interview/sangju',
     maintype: '산업',
     subtype: 'Solution',
   },
@@ -153,6 +159,7 @@ export const clients = [
     title: '전력연구원',
     image: <Logo_Article_1_16 />,
     description: <p>Citrix 가상데스크톱</p>,
+    href: '/interview/kepri',
     maintype: '산업',
     subtype: 'Solution',
   },
@@ -160,6 +167,7 @@ export const clients = [
     title: '방위사업청',
     image: <Logo_Article_1_17 />,
     description: <p>원가 관리 빅데이터</p>,
+    href: '/interview/dapa',
     maintype: '산업',
     subtype: 'Solution',
   },
@@ -167,6 +175,7 @@ export const clients = [
     title: '육군본부',
     image: <Logo_Article_1_18 />,
     description: <p>스마트부대</p>,
+    href: '/interview/army',
     maintype: '산업',
     subtype: 'Solution',
   },
@@ -174,16 +183,56 @@ export const clients = [
     title: '경상북도청',
     image: <Logo_Article_1_19 />,
     description: <p>서버 가상화</p>,
+    href: '/interview/gb',
     maintype: '산업',
     subtype: 'Solution',
   },
-  // {
-  //   title: '한국농어촌공사',
-  //   image: <Logo_Article_1_20 />,
-  //   description: <p>서버 가상화</p>,
-  //   maintype: '산업',
-  //   subtype: 'Solution',
-  // },
+  {
+    title: '한국농어촌공사',
+    image: <Logo_Article_1_20 />,
+    description: <p>서버 가상화</p>,
+    href: '/interview/ekr',
+    maintype: '산업',
+    subtype: 'Solution',
+  },
+  {
+    title: '(주)티쓰리큐',
+    image: <Logo_Article_1_21 />,
+    description: (
+      <p>
+        HCI 기반 자체
+        <br />
+        AI/빅데이터 DevOps 구축
+      </p>
+    ),
+    href: '/interview/t3q',
+    maintype: '산업',
+    subtype: 'Solution',
+  },
+  {
+    title: '쿠콘',
+    image: <Logo_Article_1_22 />,
+    description: <p>서버 가상화</p>,
+    href: '/interview/coocon',
+    maintype: '산업',
+    subtype: 'Solution',
+  },
+  {
+    title: '의성군청',
+    image: <Logo_Article_1_23 />,
+    description: <p>vms 및 통합 플랫폼</p>,
+    href: '/interview/usc',
+    maintype: '산업',
+    subtype: 'Solution',
+  },
+  {
+    title: '예천군청',
+    image: <Logo_Article_1_24 />,
+    description: <p>vms 및 통합 플랫폼</p>,
+    href: '/interview/ycg',
+    maintype: '산업',
+    subtype: 'Solution',
+  },
 ];
 
 const headerContent: InterViewHeaderProps = {

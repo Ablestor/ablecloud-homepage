@@ -116,56 +116,75 @@ export default function CompanyPage() {
         </CompanyContent>
 
         <CompanyContent title={'History'}>
-          <div className={'mb-[40px]'}>
-            <div className='mb-[20px] flex w-full items-center justify-between'>
-              <p className={'pr-3 pl-8 text-[24px] font-[700] leading-[34.75px] xsm:pl-16'}>2021</p>
-              <div className='h-[1px] w-full bg-[#444]'></div>
-              <p className={'pl-3 pr-8 text-[24px] font-[700] leading-[34.75px] xsm:pr-16'}>2023</p>
-            </div>
-            <div className={'mb-[20px] flex justify-between'}>
-              <p className={'pl-8 text-[18px] font-[400] leading-[26.06px] xsm:pl-16'}>
-                에이블클라우드의 출발
-              </p>
-              <p className={'pr-8 pl-2 text-[18px] font-[400] leading-[26.06px] xsm:pr-16'}>
-                현재 업적까지 단
-              </p>
-            </div>
-            <div className='mb-[20px] flex justify-between'>
-              <p className={'my-[16px] pl-8 text-[140px] font-[400] leading-[162.4px] xsm:pl-16'}>
-                21
-              </p>
-              <div className='my-[16px] flex justify-end whitespace-nowrap pr-8 xsm:pr-16'>
-                <p className={'text-[140px] font-[400] leading-[162.4px] text-primary'}>2</p>
-                <p className='ml-[20px] mt-[90px]'>년</p>
+          <div className='flex justify-center'>
+            <div className='w-full max-w-[900px]'>
+              <div className={'mb-[40px]'}>
+                <div className='mb-[20px] flex w-full items-center justify-between'>
+                  <p className={'pr-3 pl-8 text-[24px] font-[700] leading-[34.75px] xsm:pl-16'}>
+                    2021
+                  </p>
+                  <div className='h-[1px] w-full bg-[#444]'></div>
+                  <p className={'pl-3 pr-8 text-[24px] font-[700] leading-[34.75px] xsm:pr-16'}>
+                    2024
+                  </p>
+                </div>
+                <div className={'mb-[20px] flex justify-between'}>
+                  <p className={'pl-8 text-[18px] font-[400] leading-[26.06px] xsm:pl-16'}>
+                    에이블클라우드의 출발
+                  </p>
+                  <p className={'pr-8 pl-2 text-[18px] font-[400] leading-[26.06px] xsm:pr-16'}>
+                    현재 업적까지 단
+                  </p>
+                </div>
+                <div className='mb-[20px] flex justify-between'>
+                  <p
+                    className={
+                      'my-[16px] pl-8 text-[140px] font-[400] leading-[162.4px] xsm:pl-16'
+                    }>
+                    21
+                  </p>
+                  <div className='my-[16px] flex justify-end whitespace-nowrap pr-8 xsm:pr-16'>
+                    <p className={'text-[140px] font-[400] leading-[162.4px] text-[#2BBBE6]'}>3</p>
+                    <p className='ml-[20px] mt-[90px]'>년</p>
+                  </div>
+                </div>
+                <div className={'mb-[20px] flex justify-between'}>
+                  <p className={'leading-[26.06px pl-8 text-left text-[18px] font-[400] xsm:pl-16'}>
+                    에이블클라우드는
+                    <br />
+                    21년에 설립된 회사입니다.
+                  </p>
+                  <p
+                    className={
+                      'leading-[26.06px pr-8 pl-2 text-right text-[18px] font-[400] xsm:pr-16'
+                    }>
+                    에이블클라우드의
+                    <br />
+                    이유있는 자신감,
+                  </p>
+                </div>
+              </div>
+              <div className={'grid grid-cols-2 gap-[16px] lg:grid-cols-4'}>
+                <CompanyContent.SmallCard
+                  className={`bg-[#83D1FF]`}
+                  value={'4'}
+                  title={'Major Upgrade'}
+                />
+                <CompanyContent.SmallCard
+                  className={`bg-[#3CA3FF]`}
+                  value={'36'}
+                  title={'파트너'}
+                />
+                <CompanyContent.SmallCard className={`bg-[#3281C4]`} value={'23'} title={'고객'} />
+                <CompanyContent.SmallCard
+                  className={`bg-[#104C95]`}
+                  value={'124'}
+                  title={'호스트'}
+                />
+                {/* <CompanyContent.SmallCard className={`bg-[#12426B]`} value={'100'} title={'가상머신'} />
+            <CompanyContent.SmallCard className={`bg-[#001F39]`} value={'2PB'} title={'스토리지'} /> */}
               </div>
             </div>
-            <div className={'mb-[20px] flex justify-between'}>
-              <p className={'leading-[26.06px pl-8 text-left text-[18px] font-[400] xsm:pl-16'}>
-                에이블클라우드는
-                <br />
-                21년에 설립된 회사입니다.
-              </p>
-              <p
-                className={
-                  'leading-[26.06px pr-8 pl-2 text-right text-[18px] font-[400] xsm:pr-16'
-                }>
-                에이블클라우드의
-                <br />
-                이유있는 자신감,
-              </p>
-            </div>
-          </div>
-          <div className={'grid grid-cols-2 gap-[16px] sm:grid-cols-3 lg:grid-cols-6'}>
-            <CompanyContent.SmallCard
-              className={`bg-[#83D1FF]`}
-              value={'3'}
-              title={'Major Upgrade'}
-            />
-            <CompanyContent.SmallCard className={`bg-[#3CA3FF]`} value={'13'} title={'파트너'} />
-            <CompanyContent.SmallCard className={`bg-[#3281C4]`} value={'20'} title={'고객'} />
-            <CompanyContent.SmallCard className={`bg-[#104C95]`} value={'40'} title={'호스트'} />
-            <CompanyContent.SmallCard className={`bg-[#12426B]`} value={'100'} title={'가상머신'} />
-            <CompanyContent.SmallCard className={`bg-[#001F39]`} value={'2PB'} title={'스토리지'} />
           </div>
         </CompanyContent>
 

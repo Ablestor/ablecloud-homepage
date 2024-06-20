@@ -11,7 +11,7 @@ export interface InterViewContentProps extends BaseComponentProps {
 }
 
 export interface InterViewClientContentProps {
-  clinetImage: JSX.Element;
+  clientImage: JSX.Element;
   introduceDescription: ReactNode;
   introduceImage?: JSX.Element;
   assignmentDescription?: ReactNode;
@@ -47,7 +47,7 @@ const InterViewContent = memo<PropsWithChildren<InterViewContentProps>>(
 ) as NamedExoticComponent<PropsWithChildren<InterViewContentProps>> & {};
 
 export const InterViewClientContent = ({
-  clinetImage,
+  clientImage,
   introduceDescription,
   introduceImage,
   assignmentDescription,
@@ -55,7 +55,7 @@ export const InterViewClientContent = ({
 }: InterViewClientContentProps) => {
   return (
     <section className='not-prose m-auto min-h-[800px] max-w-page-full px-8 text-[#444444] xl:px-0'>
-      <div className='mt-16'>{clinetImage}</div>
+      <div className='mt-16'>{clientImage}</div>
       <div className='mt-12'>
         <div className='text-[24px] font-bold'>고객소개</div>
         <div className='mt-12 w-full lg:w-[954px]'>{introduceDescription}</div>

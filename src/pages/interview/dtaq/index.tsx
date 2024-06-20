@@ -13,7 +13,7 @@ const headerContent: ClientHeader = {
 };
 
 const clientContent: InterViewClientContentProps = {
-  clinetImage: <Logo_Article_1_12 />,
+  clientImage: <Logo_Article_1_12 />,
   introduceDescription: (
     <p>
       국방기술품질원은 1981년 7월 1일 국방품질검사소에서 출발 후 2006년 2월 2일 품질관리소의 임무를
@@ -26,7 +26,7 @@ const clientContent: InterViewClientContentProps = {
     </p>
   ),
   introduceImage: (
-    <div className='mx-auto max-w-[490px]'>
+    <div className='mx-auto max-w-[490px] py-8'>
       <Image src={DtaqIntroduceImg} />
     </div>
   ),

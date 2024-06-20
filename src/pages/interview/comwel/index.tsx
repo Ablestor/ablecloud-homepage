@@ -13,7 +13,7 @@ const headerContent: ClientHeader = {
 };
 
 const clientContent: InterViewClientContentProps = {
-  clinetImage: <Logo_Article_1_4 />,
+  clientImage: <Logo_Article_1_4 />,
   introduceDescription: (
     <p>
       근로복지공단은 산재 및 고용보험 서비스, 산재의료 서비스, 근로복지 서비스 등 노동복지 사업을
@@ -25,7 +25,7 @@ const clientContent: InterViewClientContentProps = {
     </p>
   ),
   introduceImage: (
-    <div className='mx-auto max-w-[465px]'>
+    <div className='mx-auto max-w-[465px] py-8'>
       <Image src={ComwelIntroduceImg} />
     </div>
   ),

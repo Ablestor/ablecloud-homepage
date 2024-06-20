@@ -13,7 +13,7 @@ const headerContent: ClientHeader = {
 };
 
 const clientContent: InterViewClientContentProps = {
-  clinetImage: <Logo_Article_1_6 />,
+  clientImage: <Logo_Article_1_6 />,
   introduceDescription: (
     <p>
       여주대학교는 경기도 여주에 위치한 사립전문대학으로 4차 산업혁명의 핵심 인재 및 첨단 의료
@@ -25,7 +25,7 @@ const clientContent: InterViewClientContentProps = {
     </p>
   ),
   introduceImage: (
-    <div className='mx-auto max-w-[396px]'>
+    <div className='mx-auto max-w-[396px] py-8'>
       <Image src={YitIntroduceImg} />
     </div>
   ),

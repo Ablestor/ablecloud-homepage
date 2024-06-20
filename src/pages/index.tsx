@@ -27,8 +27,25 @@ import Header_Content_1 from '@/public/images/new/home/header-image-1.png';
 import Header_Content_2 from '@/public/images/new/home/header-image-2.png';
 import Header_Content_3 from '@/public/images/new/home/header-image-3.png';
 import Header_Content_4 from '@/public/images/new/home/header-image-4.png';
+import Header_Content_5 from '@/public/images/new/home/header-image-5.png';
 
 const sliderData: SliderData[] = [
+  {
+    title: (
+      <div className='leading-tight'>
+        ABLESTACK V4.0
+        <br />
+        보안기능확인서 획득!
+      </div>
+    ),
+    description:
+      'ABLESTACK V4.0이 HCI 부문 국내기업 가상화 관리 부문에서 최초로 보안기능확인서를 획득하였습니다.',
+    href: 'https://www.etnews.com/20240611000087',
+    bgImage: 'bg-home-header-bg-7',
+    contentImage: Header_Content_5,
+    isBlank: true,
+    isImageEnd: true,
+  },
   {
     title: '외산 가상화 구독형 라이선스를 단일 HCI 플랫폼으로',
     description:

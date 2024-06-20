@@ -3,7 +3,6 @@ import { ReactNode } from '@mdx-js/react/lib';
 import Logo_Article_4_1 from '@/public/images/new/partner/article_4_1.svg';
 import Logo_Article_4_2 from '@/public/images/new/partner/article_4_2.svg';
 import Logo_Article_4_3 from '@/public/images/new/partner/article_4_3.svg';
-import Logo_Article_4_4 from '@/public/images/new/partner/article_4_4.svg';
 import Logo_Article_4_5 from '@/public/images/new/partner/article_4_5.svg';
 import Logo_Article_4_6 from '@/public/images/new/partner/article_4_6.svg';
 import Logo_Article_4_7 from '@/public/images/new/partner/article_4_7.svg';
@@ -31,6 +30,8 @@ import Logo_Article_4_33 from '@/public/images/new/partner/article_4_33.svg';
 import Logo_Article_4_34 from '@/public/images/new/partner/article_4_34.svg';
 import Logo_Article_4_35 from '@/public/images/new/partner/article_4_35.svg';
 import Logo_Article_4_36 from '@/public/images/new/partner/article_4_36.svg';
+import Logo_Article_4_37 from '@/public/images/new/partner/article_4_37.svg';
+import Logo_Article_4_38 from '@/public/images/new/partner/article_4_38.svg';
 
 interface BaseTabItem {
   title: string;
@@ -131,10 +132,6 @@ export const partnerItems: Array<BaseTabItem> = [
         src: <Logo_Article_4_35 />,
       },
       {
-        name: '(주)가시',
-        src: <Logo_Article_4_4 />,
-      },
-      {
         name: '제노솔루션(주)',
         src: <Logo_Article_4_23 />,
       },
@@ -145,6 +142,10 @@ export const partnerItems: Array<BaseTabItem> = [
       {
         name: '(주)인프라큐브',
         src: <Logo_Article_4_36 />,
+      },
+      {
+        name: '효성인포메이션시스템(주)',
+        src: <Logo_Article_4_37 />,
       },
       { name: '(주)티쓰리큐', src: <Logo_Article_4_17 /> },
       {
@@ -174,6 +175,10 @@ export const partnerItems: Array<BaseTabItem> = [
       {
         name: '(주)이노티움',
         src: <Logo_Article_4_6 />,
+      },
+      {
+        name: 'AJICT',
+        src: <Logo_Article_4_38 />,
       },
 
       // {

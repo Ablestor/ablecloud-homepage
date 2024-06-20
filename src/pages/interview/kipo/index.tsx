@@ -13,7 +13,7 @@ const headerContent: ClientHeader = {
 };
 
 const clientContent: InterViewClientContentProps = {
-  clinetImage: <Logo_Article_1_7 />,
+  clientImage: <Logo_Article_1_7 />,
   introduceDescription: (
     <p>
       특허청은 특허·실용신안·디자인 및 상표에 관한 사무와 이에 대한 심사·심판사무를 관장하는
@@ -22,7 +22,7 @@ const clientContent: InterViewClientContentProps = {
     </p>
   ),
   introduceImage: (
-    <div className='mx-auto max-w-[494px]'>
+    <div className='mx-auto max-w-[494px] py-8'>
       <Image src={KipoIntroduceImg} />
     </div>
   ),

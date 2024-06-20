@@ -13,7 +13,7 @@ const headerContent: ClientHeader = {
 };
 
 const clientContent: InterViewClientContentProps = {
-  clinetImage: <Logo_Article_1_11 />,
+  clientImage: <Logo_Article_1_11 />,
   introduceDescription: (
     <p>
       대검찰청은 대한민국 검사의 검찰 사무를 수행하고, 각종 사건수사 및 전국의 검찰청을 지취
@@ -26,7 +26,7 @@ const clientContent: InterViewClientContentProps = {
     </p>
   ),
   introduceImage: (
-    <div className='mx-auto max-w-[440px]'>
+    <div className='mx-auto max-w-[440px] py-8'>
       <Image src={SpoIntroduceImg} />
     </div>
   ),

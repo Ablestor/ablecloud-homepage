@@ -13,7 +13,7 @@ const headerContent: ClientHeader = {
 };
 
 const clientContent: InterViewClientContentProps = {
-  clinetImage: <Logo_Article_1_8 className='max-w-[396px]' />,
+  clientImage: <Logo_Article_1_8 className='max-w-[396px]' />,
   introduceDescription: (
     <p>
       충남대학교병원은 대전, 충남, 세종 지역의 거점 병원으로 충남대학교 내에 설치된 의과대학 및
@@ -25,7 +25,7 @@ const clientContent: InterViewClientContentProps = {
     </p>
   ),
   introduceImage: (
-    <div className='mx-auto max-w-[399px]'>
+    <div className='mx-auto max-w-[399px] py-8'>
       <Image src={CnuhIntroduceImg} />
     </div>
   ),
