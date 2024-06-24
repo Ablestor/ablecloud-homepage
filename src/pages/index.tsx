@@ -40,7 +40,7 @@ const sliderData: SliderData[] = [
     ),
     description:
       'ABLESTACK V4.0이 HCI 부문 국내기업 가상화 관리 부문에서 최초로 보안기능확인서를 획득하였습니다.',
-    href: 'https://www.etnews.com/20240611000087',
+    href: `/blog/news/에이블클라우드 '에이블스택', 국정원 보안인증 획득`,
     bgImage: 'bg-home-header-bg-7',
     contentImage: Header_Content_5,
     isBlank: true,
