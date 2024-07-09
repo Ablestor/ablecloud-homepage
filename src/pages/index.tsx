@@ -99,8 +99,8 @@ export default function HomePage() {
   return (
     <>
       <NextSeo
-        title='데이터센터 인프라를 단일 플랫폼으로 통합 - ABLESTACK'
-        description='하이퍼컨버지드인프라(HCI) 개발 전문업체입니다.'
+        title='에이블클라우드'
+        description='에이블클라우드는 하이퍼컨버지드인프라(HCI) 개발 전문업체입니다.'
         openGraph={{
           type: 'website',
           url: 'https://www.ablecloud.io/',
