@@ -354,10 +354,10 @@ export default function CompanyPage() {
               'mt-8 grid max-w-page-full grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3 xlg:grid-cols-5'
             }>
             <CompanyContent.ImageItam title='기업부설연구소 인정서' image={<Logo_Article_6_1 />} />
-            <CompanyContent.ImageItam title='소프트웨어품질인정서' image={<Logo_Article_6_2 />} />
+            <CompanyContent.ImageItam title='소프트웨어품질인증서' image={<Logo_Article_6_2 />} />
             <CompanyContent.ImageItam title='저작권 등록증' image={<Logo_Article_6_3 />} />
             <CompanyContent.ImageItam title='보안기능확인서' image={<Logo_Article_6_5 />} />
-            <CompanyContent.ImageItam title='특허출원' image={<Logo_Article_6_4 />} />
+            <CompanyContent.ImageItam title='특허증 획득' image={<Logo_Article_6_4 />} />
           </div>
         </CompanyContent>
       </CompanyTemplate>
