@@ -5,6 +5,8 @@ import { cls } from '@/utils';
 
 import { CustomLink } from '@/components/common';
 
+import Logo_Blog from '@/public/icons/blog.svg';
+import Logo_Youtube from '@/public/icons/youtube.svg';
 import Logo_ablecloud_white from '@/public/images/logos/ablecloud_logo_white.svg';
 
 // 사용안함
@@ -35,6 +37,24 @@ function FooterSite() {
 function FooterInformation() {
   return (
     <section className={'w-full bg-[#414141] py-8'}>
+      <div className='m-auto max-w-[1200px] px-12 text-white'>
+        <div className='flex gap-1'>
+          <a
+            href='https://blog.naver.com/ablecloud_official'
+            target='_blank'
+            rel='noopener noreferrer'>
+            <Logo_Blog />
+          </a>
+          <a
+            href='https://www.youtube.com/@user-vu1ss1re2m'
+            target='_blank'
+            rel='noopener noreferrer'>
+            <Logo_Youtube />
+          </a>
+        </div>
+        <div className='my-4 h-[1px] w-full bg-white' />
+      </div>
+
       <div className='m-auto flex h-full max-w-[1200px] flex-col justify-between px-12 text-[14px] text-white md:flex-row '>
         <div className='flex flex-col  gap-4 md:flex-row md:gap-9 '>
           <div className='flex flex-col gap-4'>
