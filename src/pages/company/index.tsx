@@ -145,7 +145,7 @@ export default function CompanyPage() {
                     21
                   </p>
                   <div className='my-[16px] flex justify-end whitespace-nowrap pr-8 xsm:pr-16'>
-                    <p className={'text-[140px] font-[400] leading-[162.4px] text-[#2BBBE6]'}>3</p>
+                    <p className={'text-[140px] font-[400] leading-[162.4px] text-[#2BBBE6]'}>4</p>
                     <p className='ml-[20px] mt-[90px]'>년</p>
                   </div>
                 </div>
