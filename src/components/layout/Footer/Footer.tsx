@@ -64,7 +64,7 @@ function FooterInformation() {
             </div>
             <div>
               <span className='font-bold'>본사 </span>
-              <span>서울특별시 영등포구 영신로 220 KnK디지털타워 1808호</span>
+              <span>서울특별시 영등포구 영신로 220 KnK디지털타워 1901호</span>
             </div>
             <div>
               <span className='font-bold'>연구소 </span>

@@ -42,7 +42,7 @@ export default function ContactPage() {
 
           <div className='not-prose flex space-x-1 self-center'>
             <div className='flex flex-col text-[16px] text-neutral-600'>
-              <p>영업 / 마케팅: sky@ablestor.com</p>
+              <p>영업 / 마케팅: sales@ablestack.co.kr</p>
               <p>기술지원: support@ablecloud.io</p>
             </div>
           </div>
