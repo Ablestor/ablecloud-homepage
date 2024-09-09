@@ -31,6 +31,15 @@ import Header_Content_5 from '@/public/images/new/home/header-image-5.png';
 
 const sliderData: SliderData[] = [
   {
+    title: '외산 가상화 구독형 라이선스를 단일 HCI 플랫폼으로',
+    description:
+      'ABLESTACK은 모든 기능이 단일 영구 라이선스로 제공되며 기존의 외산 구독형 가상화 인프라를 쉽게 전환할 수 있어 최소 35% 비용을 절감할 수 있습니다.',
+    href: '/pdf/ABLESTACK_VMWare.pdf',
+    bgImage: 'bg-custom-gradient',
+    contentImage: Header_Content_4,
+    isBlank: true,
+  },
+  {
     title: (
       <div className='leading-tight'>
         ABLESTACK V4.0
@@ -45,15 +54,6 @@ const sliderData: SliderData[] = [
     contentImage: Header_Content_5,
     isBlank: true,
     isImageEnd: true,
-  },
-  {
-    title: '외산 가상화 구독형 라이선스를 단일 HCI 플랫폼으로',
-    description:
-      'ABLESTACK은 모든 기능이 단일 영구 라이선스로 제공되며 기존의 외산 구독형 가상화 인프라를 쉽게 전환할 수 있어 최소 35% 비용을 절감할 수 있습니다.',
-    href: 'https://ablestor.com/public/upload/pdf/ABLESTACK_VMWare.pdf',
-    bgImage: 'bg-custom-gradient',
-    contentImage: Header_Content_4,
-    isBlank: true,
   },
   {
     title: '단일 플랫폼으로 기존의 복잡한 인프라에 대한 고민 해결',

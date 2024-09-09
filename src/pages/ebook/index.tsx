@@ -7,6 +7,7 @@ import Arrow_Icon from '@/public/images/blog/arrow.svg';
 import Logo_Article_1_1 from '@/public/images/blog/ebook_1.png';
 import Logo_Article_1_2 from '@/public/images/blog/ebook_2.png';
 import Logo_Article_1_3 from '@/public/images/blog/ebook_3.png';
+import Logo_Article_1_4 from '@/public/images/blog/ebook_4.png';
 
 export default function VideoPage() {
   return (
@@ -72,6 +73,22 @@ export default function VideoPage() {
               <div className='text-[16px] font-bold'>ABLESTACK for Oracle RAC 구성</div>
               <div className='text-[14px]'>ABLESTACK 가상화 환경에서 Oracle RAC을 구성하세요.</div>
               <Link href='/pdf/ABLESTACK_for_Oracle_RAC.pdf'>
+                <a
+                  className='flex h-[47px] cursor-pointer items-center gap-[10px] text-[14px] font-bold text-[#0085F2]'
+                  target='_blank'>
+                  백서 바로보기
+                  <Arrow_Icon />
+                </a>
+              </Link>
+            </div>
+          </div>
+          <div className='border border-[#D4D4D4]'>
+            <Image src={Logo_Article_1_4} />
+            <div className='flex flex-col gap-[10px] p-[16px]'>
+              <div className='text-[12px] text-[#919191]'>ABLESTACK V2V</div>
+              <div className='text-[16px] font-bold'>ABLESTACK VMWare 가상머신 마이그레이션</div>
+              <div className='text-[14px]'>내장된 마이그레이션 도구를 통한 V2V 가상머신 이관</div>
+              <Link href='/pdf/ABLESTACK_VMWare.pdf'>
                 <a
                   className='flex h-[47px] cursor-pointer items-center gap-[10px] text-[14px] font-bold text-[#0085F2]'
                   target='_blank'>
