@@ -34,8 +34,7 @@ import Logo_Article_4_38 from '@/public/images/new/partner/article_4_38.svg';
 import Logo_Article_4_39 from '@/public/images/new/partner/article_4_39.svg';
 import Logo_Article_4_40 from '@/public/images/new/partner/article_4_40.svg';
 import Logo_Article_4_41 from '@/public/images/new/partner/article_4_41.svg';
-
-// import Logo_Article_4_42 from '@/public/images/new/partner/article_4_42.svg';
+import Logo_Article_4_42 from '@/public/images/new/partner/article_4_42.svg';
 
 interface BaseTabItem {
   title: string;
@@ -88,10 +87,10 @@ export const partnerItems: Array<BaseTabItem> = [
         name: '(주)지엔텔',
         src: <Logo_Article_4_2 />,
       },
-      // {
-      //   name: '(주)아이티앤씨',
-      //   src: <Logo_Article_4_42 />,
-      // },
+      {
+        name: '(주)아이티앤씨',
+        src: <Logo_Article_4_42 />,
+      },
       {
         name: '시트릭스',
         src: <Logo_Article_4_22 />,
