@@ -102,7 +102,7 @@ export default function VideoPage() {
           <div className='border border-[#D4D4D4]'>
             <Image src={Logo_Article_1_5} />
             <div className='flex flex-col gap-[10px] p-[16px]'>
-              <div className='text-[12px] text-[#919191]'>ABLESTACK</div>
+              <div className='text-[12px] text-[#919191]'>ABLESTACK V2V</div>
               <div className='text-[16px] font-bold'>ABLESTACK 물리서버를 가상머신으로</div>
               <div className='text-[14px]'>물리서버를 가상머신으로 마이그레이션하는 방법</div>
               <Link href='/pdf/ABLESTACK_VMWare_Server.pdf'>
