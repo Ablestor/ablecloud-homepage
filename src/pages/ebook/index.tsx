@@ -1,14 +1,14 @@
+import Image from 'next/image';
+import Link from 'next/link';
+
+import { NextSeo } from 'next-seo';
+
 import Arrow_Icon from '@/public/images/blog/arrow.svg';
 import Logo_Article_1_1 from '@/public/images/blog/ebook_1.png';
 import Logo_Article_1_2 from '@/public/images/blog/ebook_2.png';
 import Logo_Article_1_3 from '@/public/images/blog/ebook_3.png';
 import Logo_Article_1_4 from '@/public/images/blog/ebook_4.png';
 import Logo_Article_1_5 from '@/public/images/blog/ebook_5.png';
-import { NextSeo } from 'next-seo';
-import Image from 'next/image';
-import Link from 'next/link';
-
-
 
 export default function VideoPage() {
   return (
@@ -102,7 +102,7 @@ export default function VideoPage() {
           <div className='border border-[#D4D4D4]'>
             <Image src={Logo_Article_1_5} />
             <div className='flex flex-col gap-[10px] p-[16px]'>
-              <div className='text-[12px] text-[#919191]'>ABLESTACK V2V</div>
+              <div className='text-[12px] text-[#919191]'>ABLESTACK P2V</div>
               <div className='text-[16px] font-bold'>ABLESTACK 물리서버를 가상머신으로</div>
               <div className='text-[14px]'>물리서버를 가상머신으로 마이그레이션하는 방법</div>
               <Link href='/pdf/ABLESTACK_P2V_Migration.pdf'>
