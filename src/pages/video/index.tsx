@@ -3,6 +3,7 @@ import { NextSeo } from 'next-seo';
 const videoList = [
   'https://www.youtube.com/embed/6xLcY16LpgM',
   'https://www.youtube.com/embed/GHl3-2tg2b0',
+  'https://www.youtube.com/embed/ury7M9NpBFE',
 ];
 
 export default function VideoPage() {
