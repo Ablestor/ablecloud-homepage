@@ -35,6 +35,7 @@ import Logo_Article_4_39 from '@/public/images/new/partner/article_4_39.svg';
 import Logo_Article_4_40 from '@/public/images/new/partner/article_4_40.svg';
 import Logo_Article_4_41 from '@/public/images/new/partner/article_4_41.svg';
 import Logo_Article_4_42 from '@/public/images/new/partner/article_4_42.svg';
+import Logo_Article_4_43 from '@/public/images/new/partner/article_4_43.svg';
 
 interface BaseTabItem {
   title: string;
@@ -103,10 +104,7 @@ export const partnerItems: Array<BaseTabItem> = [
         name: '슈퍼마이크로 컴퓨터(주)',
         src: <Logo_Article_4_27 />,
       },
-      {
-        name: '(주)이노그리드',
-        src: <Logo_Article_4_20 />,
-      },
+
       {
         name: 'HP(주)',
         src: <Logo_Article_4_28 />,
@@ -136,8 +134,13 @@ export const partnerItems: Array<BaseTabItem> = [
         src: <Logo_Article_4_26 />,
       },
       {
-        name: '(주)이노뎁',
-        src: <Logo_Article_4_7 />,
+        name: '(주)이노그리드',
+        src: <Logo_Article_4_20 />,
+      },
+
+      {
+        name: '(주)클로잇',
+        src: <Logo_Article_4_43 />,
       },
       {
         name: '(주)에스엔에이',
@@ -151,10 +154,7 @@ export const partnerItems: Array<BaseTabItem> = [
         name: '(주)쓰리에스소프트',
         src: <Logo_Article_4_30 />,
       },
-      {
-        name: '(주)이노티움',
-        src: <Logo_Article_4_6 />,
-      },
+
       {
         name: '(주)센텍정보기술',
         src: <Logo_Article_4_31 />,
@@ -184,6 +184,11 @@ export const partnerItems: Array<BaseTabItem> = [
         name: '(주)이레솔루션',
         src: <Logo_Article_4_15 />,
       },
+
+      {
+        name: '(주)이노뎁',
+        src: <Logo_Article_4_7 />,
+      },
       {
         name: '(주)정우씨에스티',
         src: <Logo_Article_4_32 />,
@@ -191,6 +196,10 @@ export const partnerItems: Array<BaseTabItem> = [
       {
         name: '(주)온아이티시스템',
         src: <Logo_Article_4_33 />,
+      },
+      {
+        name: '(주)이노티움',
+        src: <Logo_Article_4_6 />,
       },
       // {
       //   name: '씨게이트',
