@@ -4,6 +4,9 @@ const videoList = [
   'https://www.youtube.com/embed/6xLcY16LpgM',
   'https://www.youtube.com/embed/GHl3-2tg2b0',
   'https://www.youtube.com/embed/ury7M9NpBFE',
+  'https://www.youtube.com/embed/hL9dMBIlQRE',
+  'https://www.youtube.com/embed/aEZ3q1BTkmw',
+  'https://www.youtube.com/embed/aYKeLLrlZ6o',
 ];
 
 export default function VideoPage() {
